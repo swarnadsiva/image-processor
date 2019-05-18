@@ -11,7 +11,7 @@ This program can generate rainbow striped images and also process existing image
 Carlo Mutuc
 Durga Sivamani
 
-## Usage:  
+## Usage
 Create a .txt file with instructions of what you want to do and include that in a directory with the .jar file. For example, to blur an image, the text file commands would be:
 > load (image_name)  
 > blur  
@@ -33,5 +33,5 @@ dither
 mosaic <num_of_seeds>
 ```
 
-## Program Design:  
+## Program Design
 Created a controller class, ImageController, to handle input and output between our driver, ImageDriver, and model, ImageProcessor. In addition, we implemented the observer pattern where the controller is the observer and the model is the subject. The observer pattern interfaces, ImageObserver and ImageListener, are separate from the controller and model interface so that we would have to make minimal changes to existing code.
