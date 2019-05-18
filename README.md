@@ -8,8 +8,7 @@ This program can generate rainbow striped images and also process existing image
 * mosaic
 
 ## Programmers
-Carlo Mutuc
-Durga Sivamani
+Carlo Mutuc, Durga Sivamani
 
 ## Usage
 Create a .txt file with instructions of what you want to do and include that in a directory with the .jar file. For example, to blur an image, the text file commands would be:
